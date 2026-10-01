@@ -1,5 +1,22 @@
+# Python
 .venv/
-.env
 __pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
 .ipynb_checkpoints/
+
+# macOS
 .DS_Store
+
+# Generated outputs
+outputs/
+
+# Temporary files
+temp/
+tmp/
